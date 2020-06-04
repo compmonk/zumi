@@ -6,7 +6,7 @@ rm postman.tar.gz
 sudo ln -sf /opt/Postman/Postman /usr/bin/postman
 
 echo "Creating Dekstop entry"
-cat > ~/.local/share/applications/postman.desktop <<EOL
+cat > $HOME/.local/share/applications/postman.desktop <<EOL
 [Desktop Entry]
 Encoding=UTF-8
 Name=Postman
